@@ -1,0 +1,21 @@
+.shop-items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.shop-item-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.shop-item-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.shop-item-image-caption {
+    font-size: 2em;
+}
